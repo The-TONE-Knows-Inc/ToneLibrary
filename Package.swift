@@ -11,7 +11,7 @@ let package = Package(
     products: [
         .library(
             name: "ToneLibrary",
-            targets: ["ToneListen"]),
+            targets: ["ToneListenWrapper"]),
     ],
     dependencies: [
         .package(url: "https://github.com/AudioKit/AudioKit.git", branch: "develop"),
@@ -23,6 +23,17 @@ let package = Package(
         .package(url: "https://github.com/malcommac/SwiftLocation", from: "5.1.0"),
     ],
     targets: [
-        .binaryTarget(name: "ToneListen", path: "./ToneListenFramewok.xcframework")
+        .target(
+                    name: "ToneListenWrapper",
+                    dependencies: [
+                        .product(name: "AudioKit", package: "AudioKit"),
+                        .product(name: "SoundpipeAudioKit", package: "SoundpipeAudioKit"),
+                        .product(name: "SwiftLocation", package: "SwiftLocation"),
+                        "ToneListen"
+                    ],
+                    path: "Sources/Wrapper",
+                    publicHeadersPath: ""
+               ),
+        .binaryTarget(name: "ToneListen", path: "./Sources/ToneListenFramewok.xcframework")
     ]
 )
