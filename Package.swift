@@ -32,7 +32,7 @@ let package = Package(
                         .product(name: "AudioKitUI", package: "AudioKitUI"),
                         .product(name: "DunneAudioKit", package: "DunneAudioKit"),
                         .product(name: "STKAudioKit", package: "STKAudioKit"),
-                        .product(name: "GenericJSON", package: "GenericJSON"),
+                        .product(name: "GenericJSON", package: "generic-json-swift"),
                         "ToneListen"
                     ],
                     path: "Sources/Wrapper",
