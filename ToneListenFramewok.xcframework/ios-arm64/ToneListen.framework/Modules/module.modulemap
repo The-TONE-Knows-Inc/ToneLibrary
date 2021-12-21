@@ -1,0 +1,11 @@
+framework module ToneListen {
+  umbrella header "ToneListen.h"
+
+  export *
+  module * { export * }
+}
+
+module ToneListen.Swift {
+    header "ToneListen-Swift.h"
+    requires objc
+}
