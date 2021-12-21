@@ -29,6 +29,10 @@ let package = Package(
                         .product(name: "AudioKit", package: "AudioKit"),
                         .product(name: "SoundpipeAudioKit", package: "SoundpipeAudioKit"),
                         .product(name: "SwiftLocation", package: "SwiftLocation"),
+                        .product(name: "AudioKitUI", package: "AudioKitUI"),
+                        .product(name: "DunneAudioKit", package: "DunneAudioKit"),
+                        .product(name: "STKAudioKit", package: "STKAudioKit"),
+                        .product(name: "GenericJSON", package: "GenericJSON"),
                         "ToneListen"
                     ],
                     path: "Sources/Wrapper",
