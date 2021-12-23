@@ -15,7 +15,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/AudioKit/AudioKit.git", from: "5.2.3"),
-        .package(url: "https://github.com/AudioKit/SoundpipeAudioKit.git", .upToNextMajor(from: "5.2.2")),
+        .package(url: "https://github.com/AudioKit/SoundpipeAudioKit.git", .upToNextMajor(from: "5.3.0")),
         .package(url: "https://github.com/AudioKit/DunneAudioKit.git", from: "5.2.2"),
         .package(url: "https://github.com/AudioKit/STKAudioKit.git", from:"5.2.1"),
 //        .package(url: "https://github.com/AudioKit/AudioKitUI.git", from: "5.2.3"),
