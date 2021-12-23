@@ -1,0 +1,61 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "DunneAudioKit",
+        "repositoryURL": "https://github.com/AudioKit/DunneAudioKit.git",
+        "state": {
+          "branch": null,
+          "revision": "ae73e34c16d33bfd7a91b0906a72fb7473487690",
+          "version": "5.2.2"
+        }
+      },
+      {
+        "package": "GenericJSON",
+        "repositoryURL": "https://github.com/zoul/generic-json-swift",
+        "state": {
+          "branch": null,
+          "revision": "a137894b2a217abe489cdf1ea287e6f7819b1051",
+          "version": "2.0.1"
+        }
+      },
+      {
+        "package": "KissFFT",
+        "repositoryURL": "https://github.com/AudioKit/KissFFT",
+        "state": {
+          "branch": null,
+          "revision": "dd0636e151724b8ba2e0908eba4d99a6ff24d00c",
+          "version": "1.0.0"
+        }
+      },
+      {
+        "package": "SoundpipeAudioKit",
+        "repositoryURL": "https://github.com/AudioKit/SoundpipeAudioKit.git",
+        "state": {
+          "branch": null,
+          "revision": "3b92a11c31789073d1f48db8fa36ffa4b98a0dc7",
+          "version": "5.2.2"
+        }
+      },
+      {
+        "package": "STKAudioKit",
+        "repositoryURL": "https://github.com/AudioKit/STKAudioKit.git",
+        "state": {
+          "branch": null,
+          "revision": "33977271f21879fef036a4e8add36a20d454d69a",
+          "version": "5.2.1"
+        }
+      },
+      {
+        "package": "SwiftLocation",
+        "repositoryURL": "https://github.com/malcommac/SwiftLocation",
+        "state": {
+          "branch": null,
+          "revision": "f8ec8e97095eb3a5312370ad94b921768217625f",
+          "version": "5.1.0"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
