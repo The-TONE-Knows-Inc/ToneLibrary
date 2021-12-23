@@ -14,10 +14,10 @@ let package = Package(
             targets: ["ToneListenWrapper"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/AudioKit/AudioKit.git", from: "5.2.3"),
+        .package(url: "https://github.com/AudioKit/AudioKit.git", .upToNextMajor(from: "5.3.0")),
         .package(url: "https://github.com/AudioKit/SoundpipeAudioKit.git", .upToNextMajor(from: "5.3.0")),
-        .package(url: "https://github.com/AudioKit/DunneAudioKit.git", from: "5.2.2"),
-        .package(url: "https://github.com/AudioKit/STKAudioKit.git", from:"5.2.1"),
+        .package(url: "https://github.com/AudioKit/DunneAudioKit.git", .upToNextMajor(from: "5.3.0")),
+        .package(url: "https://github.com/AudioKit/STKAudioKit.git", .upToNextMajor(from: "5.3.0")),
 //        .package(url: "https://github.com/AudioKit/AudioKitUI.git", from: "5.2.3"),
         .package(url: "https://github.com/zoul/generic-json-swift", from: "2.0.1"),
         .package(url: "https://github.com/malcommac/SwiftLocation", from: "5.1.0"),
