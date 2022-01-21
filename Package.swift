@@ -33,11 +33,11 @@ let package = Package(
                         .product(name: "DunneAudioKit", package: "DunneAudioKit"),
                         .product(name: "STKAudioKit", package: "STKAudioKit"),
                         .product(name: "GenericJSON", package: "generic-json-swift"),
-                        "ToneListen"
+                        "ToneFramework"
                     ],
                     path: "Sources/Wrapper",
                     publicHeadersPath: ""
                ),
-        .binaryTarget(name: "ToneListen", path: "./Sources/ToneListenFramewok.xcframework")
+        .binaryTarget(name: "ToneFramework", path: "./Sources/ToneFramework.xcframework")
     ]
 )

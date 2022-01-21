@@ -1,0 +1,11 @@
+framework module ToneFramework {
+  umbrella header "ToneFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module ToneFramework.Swift {
+    header "ToneFramework-Swift.h"
+    requires objc
+}
