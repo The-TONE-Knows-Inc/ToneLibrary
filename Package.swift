@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "ToneLibrary",
     platforms: [
-        .iOS(.v14)
+        .iOS(.v14), .macOS(.v11)
     ],
     products: [
         .library(

@@ -3,14 +3,10 @@
 // swift-module-flags: -target arm64-apple-ios15.2 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ToneFramework
 import AVFoundation
 import AudioKit
-import AudioKitEX
-import AudioKitUI
-import AudioToolbox
-import CSoundpipeAudioKit
+import Combine
 import CoreAudio
 import CoreLocation
 import Foundation
-import SoundpipeAudioKit
 import Swift
 import SwiftLocation
 import SwiftUI
@@ -29,7 +25,7 @@ public class GoertzelTap : AudioKit.BaseTap {
     get
   }
   public typealias Handler = ([Swift.Int], [Swift.Double]) -> Swift.Void
-  public init(_ input: AudioKit.Node, bufferSize: Swift.UInt32 = 2048, handler: @escaping ToneFramework.GoertzelTap.Handler)
+  public init(_ input: AudioKit.Node, bufferSize: Swift.UInt32 = 2048, handler: @escaping GoertzelTap.Handler)
   @objc deinit
   override open func stop()
   override public func doHandleTapBlock(buffer: AVFAudio.AVAudioPCMBuffer, at time: AVFAudio.AVAudioTime)
@@ -37,19 +33,19 @@ public class GoertzelTap : AudioKit.BaseTap {
 public struct ToneFrameworkData {
   public var lastDetectedTone: Swift.String
 }
-public class ToneAPI : Foundation.ObservableObject & ToneFramework.Observer {
-  @Combine.Published @_projectedValueProperty($data) public var data: ToneFramework.ToneFrameworkData {
+public class ToneAPI : Foundation.ObservableObject & Observer {
+  @Combine.Published @_projectedValueProperty($data) public var data: ToneFrameworkData {
     get
     set
     _modify
   }
-  public var $data: Combine.Published<ToneFramework.ToneFrameworkData>.Publisher {
+  public var $data: Combine.Published<ToneFrameworkData>.Publisher {
     get
     @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
     set
   }
   public init()
-  public func update(subject: ToneFramework.Subject)
+  public func update(subject: Subject)
   public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
   @objc deinit
 }
@@ -61,7 +57,7 @@ public class RemoteService {
 }
 @objc @_inheritsConvenienceInitializers public class NotificationsHandler : ObjectiveC.NSObject, UserNotifications.UNUserNotificationCenterDelegate {
   @objc override dynamic public init()
-  public static var shared: ToneFramework.NotificationsHandler
+  public static var shared: NotificationsHandler
   public static let notificationName: Foundation.Notification.Name
   public func requestPermission()
   @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, willPresent notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)
@@ -73,10 +69,10 @@ public class RemoteService {
   @objc deinit
 }
 public protocol Observer : AnyObject {
-  func update(subject: ToneFramework.Subject)
+  func update(subject: Subject)
 }
 public class ToneFrameworkManager {
-  public init(observer: ToneFramework.Observer)
+  public init(observer: Observer)
   public func LogTone(message: Swift.String)
   public func startRecognizer()
   public func stopRecognizer()
