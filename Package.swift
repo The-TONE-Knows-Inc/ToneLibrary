@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "ToneLibrary",
     platforms: [
-        .iOS(.v14)
+        .iOS(.v14), .macOS(.v11)
     ],
     products: [
         .library(
@@ -38,6 +38,6 @@ let package = Package(
                     path: "Sources/Wrapper",
                     publicHeadersPath: ""
                ),
-        .binaryTarget(name: "ToneListen", path: "./Sources/ToneListenFramewok.xcframework")
+        .binaryTarget(name: "ToneListen", path: "./Sources/ToneListen.xcframework")
     ]
 )
