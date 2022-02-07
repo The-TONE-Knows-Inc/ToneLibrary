@@ -1,0 +1,86 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ToneListen
+import AVFoundation
+import AudioKit
+import Combine
+import CoreAudio
+import CoreLocation
+import Foundation
+import Swift
+import SwiftLocation
+import SwiftUI
+@_exported import ToneListen
+import UIKit
+import UserNotifications
+import _Concurrency
+public class RemoteService {
+  public init()
+  public static func handleContent(actionType: Swift.String, actionUrl: Swift.String)
+  public static func checkTone(detectedTone: Swift.String)
+  @objc deinit
+}
+public struct ToneFrameworkData {
+  public var lastDetectedTone: Swift.String
+}
+public class ToneAPI : Foundation.ObservableObject & ToneListen.Observer {
+  @Combine.Published @_projectedValueProperty($data) public var data: ToneListen.ToneFrameworkData {
+    get
+    set
+    _modify
+  }
+  public var $data: Combine.Published<ToneListen.ToneFrameworkData>.Publisher {
+    get
+    @available(iOS 14.0, tvOS 14.0, watchOS 7.0, macOS 11.0, *)
+    set
+  }
+  public init()
+  public func update(subject: ToneListen.Subject)
+  public typealias ObjectWillChangePublisher = Combine.ObservableObjectPublisher
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Subject {
+  public var state: Swift.String
+  @objc deinit
+}
+public protocol Observer : AnyObject {
+  func update(subject: ToneListen.Subject)
+}
+@objc @_inheritsConvenienceInitializers public class NotificationsHandler : ObjectiveC.NSObject, UserNotifications.UNUserNotificationCenterDelegate {
+  @objc override dynamic public init()
+  public static var shared: ToneListen.NotificationsHandler
+  public static let notificationName: Foundation.Notification.Name
+  public func requestPermission()
+  @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, willPresent notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)
+  @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Swift.Void)
+  @objc deinit
+}
+public class GoertzelTap : AudioKit.BaseTap {
+  public var amplitude: Swift.Float {
+    get
+  }
+  public var leftPitch: Swift.Float {
+    get
+  }
+  public var rightPitch: Swift.Float {
+    get
+  }
+  public typealias Handler = ([Swift.Int], [Swift.Double]) -> Swift.Void
+  public init(_ input: AudioKit.Node, bufferSize: Swift.UInt32 = 2048, handler: @escaping ToneListen.GoertzelTap.Handler)
+  @objc deinit
+  override open func stop()
+  override public func doHandleTapBlock(buffer: AVFAudio.AVAudioPCMBuffer, at time: AVFAudio.AVAudioTime)
+}
+public class ToneFrameworkManager {
+  public init(observer: ToneListen.Observer)
+  public func LogTone(message: Swift.String)
+  public func startRecognizer()
+  public func stopRecognizer()
+  @objc deinit
+}
+public class ToneFramework {
+  public init()
+  public func start()
+  public func stop()
+  @objc deinit
+}
