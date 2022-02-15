@@ -40,6 +40,7 @@ notificationSub = NotificationCenter.default.publisher(for: NotificationsHandler
             .assign(to: \notifiedValue, on: self)  // Assign the msg to a property using a keypath
 
 // 'notifiedValue' saves an URL or PhoneNumber (string), depending what tone was caught. 
+```
 ## NOTE:
 
 You need to add "Background modes" capabilites to your proyect to allow use microphone and other services in background.
@@ -50,7 +51,7 @@ Also you need to add frecuencies_table.json to your project.
 ## Installation
 
 ### Swift Package Manager
-```
+
 Add the ToneLibrary package to your target dependencies in `Package.swift`:
 
 ```swift
