@@ -14,10 +14,9 @@ import SwiftUI
 import UIKit
 import UserNotifications
 import _Concurrency
-public class RemoteService {
-  public init()
+@_hasMissingDesignatedInitializers public class RemoteService {
   public static func handleContent(actionType: Swift.String, actionUrl: Swift.String)
-  public static func checkTone(detectedTone: Swift.String)
+  public static func checkTone(detectedTone: Swift.String, clientID: Swift.String)
   @objc deinit
 }
 public struct ToneFrameworkData {
@@ -79,7 +78,7 @@ public class ToneFrameworkManager {
   @objc deinit
 }
 public class ToneFramework {
-  public init()
+  public init(clientID: Swift.String)
   public func start()
   public func stop()
   @objc deinit
