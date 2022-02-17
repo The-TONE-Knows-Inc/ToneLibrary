@@ -49,6 +49,7 @@ public protocol Observer : AnyObject {
   @objc override dynamic public init()
   public static var shared: ToneListen.NotificationsHandler
   public static let notificationName: Foundation.Notification.Name
+  public static let responseObjectNotificationName: Foundation.Notification.Name
   public func requestPermission()
   @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, willPresent notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)
   @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Swift.Void)
