@@ -48,6 +48,7 @@ public protocol Observer : AnyObject {
 @objc @_inheritsConvenienceInitializers public class NotificationsHandler : ObjectiveC.NSObject, UserNotifications.UNUserNotificationCenterDelegate {
   @objc override dynamic public init()
   public static var shared: ToneListen.NotificationsHandler
+  public var contentResponse: [Swift.String : Any]
   public static let clientNotificationName: Foundation.Notification.Name
   public static let notificationName: Foundation.Notification.Name
   public static let responseObjectNotificationName: Foundation.Notification.Name

@@ -22,11 +22,11 @@
 		</data>
 		<key>Modules/ToneListen.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		S8m9ocxKbCUZnaB4bLO+8PW5g4s=
+		8ijLI52vP2QqGOa13A2eF8cIXD4=
 		</data>
 		<key>Modules/ToneListen.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		qmeUSLycvEHO1StKIUg6ChRRysk=
+		rX5EmS3rbppmF9bTq17NRoNFwXw=
 		</data>
 		<key>Modules/ToneListen.swiftmodule/arm64.swiftdoc</key>
 		<data>
@@ -34,11 +34,11 @@
 		</data>
 		<key>Modules/ToneListen.swiftmodule/arm64.swiftinterface</key>
 		<data>
-		S8m9ocxKbCUZnaB4bLO+8PW5g4s=
+		8ijLI52vP2QqGOa13A2eF8cIXD4=
 		</data>
 		<key>Modules/ToneListen.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		qmeUSLycvEHO1StKIUg6ChRRysk=
+		rX5EmS3rbppmF9bTq17NRoNFwXw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -76,14 +76,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BcEetp5JkDXjrP1sGSbpdKPW02mtjtKU1UOpPpe7HGA=
+			uawEYUpF2PTiNgfXavQy1ipsNV4dYNRM2c1Aq3mlbVg=
 			</data>
 		</dict>
 		<key>Modules/ToneListen.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D2nNR2zeIjI3InstAv+g/9OC3x++Rd9MAQtxAYxx5zY=
+			FFiUQ1UkuAdF4M5ZLypoBzgdVflq7xFzltl10pc4AOM=
 			</data>
 		</dict>
 		<key>Modules/ToneListen.swiftmodule/arm64.swiftdoc</key>
@@ -97,14 +97,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			BcEetp5JkDXjrP1sGSbpdKPW02mtjtKU1UOpPpe7HGA=
+			uawEYUpF2PTiNgfXavQy1ipsNV4dYNRM2c1Aq3mlbVg=
 			</data>
 		</dict>
 		<key>Modules/ToneListen.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			D2nNR2zeIjI3InstAv+g/9OC3x++Rd9MAQtxAYxx5zY=
+			FFiUQ1UkuAdF4M5ZLypoBzgdVflq7xFzltl10pc4AOM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
