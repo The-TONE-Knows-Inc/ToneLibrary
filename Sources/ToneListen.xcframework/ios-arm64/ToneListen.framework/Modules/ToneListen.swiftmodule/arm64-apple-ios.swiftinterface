@@ -14,8 +14,7 @@ import SwiftUI
 import UIKit
 import UserNotifications
 import _Concurrency
-public class RemoteService {
-  public init()
+@_hasMissingDesignatedInitializers public class RemoteService {
   public static func handleContent(actionType: Swift.String, actionUrl: Swift.String)
   public static func checkTone(detectedTone: Swift.String)
   @objc deinit
@@ -49,7 +48,10 @@ public protocol Observer : AnyObject {
 @objc @_inheritsConvenienceInitializers public class NotificationsHandler : ObjectiveC.NSObject, UserNotifications.UNUserNotificationCenterDelegate {
   @objc override dynamic public init()
   public static var shared: ToneListen.NotificationsHandler
+  public var contentResponse: [Swift.String : Any]
+  public static let clientNotificationName: Foundation.Notification.Name
   public static let notificationName: Foundation.Notification.Name
+  public static let responseObjectNotificationName: Foundation.Notification.Name
   public func requestPermission()
   @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, willPresent notification: UserNotifications.UNNotification, withCompletionHandler completionHandler: @escaping (UserNotifications.UNNotificationPresentationOptions) -> Swift.Void)
   @objc public func userNotificationCenter(_ center: UserNotifications.UNUserNotificationCenter, didReceive response: UserNotifications.UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Swift.Void)
@@ -79,8 +81,10 @@ public class ToneFrameworkManager {
   @objc deinit
 }
 public class ToneFramework {
+  public static let shared: ToneListen.ToneFramework
   public init()
   public func start()
   public func stop()
+  public func setClientId(clientID: Swift.String)
   @objc deinit
 }
