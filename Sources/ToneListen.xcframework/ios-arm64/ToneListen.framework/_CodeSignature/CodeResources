@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ToneListen-Swift.h</key>
 		<data>
-		6AQCi+8YUobKUoDlbuV1MF7Xa4E=
+		7M+zqRp2KMjRynSVij5EuHGkb9M=
 		</data>
 		<key>Headers/ToneListen.h</key>
 		<data>
@@ -14,31 +14,19 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		D6VP1vqZ03hG5Dh1Xf/5R/f/T6k=
+		i/n/n7gDEnGrpBV5Zb3VXNWHqrA=
 		</data>
 		<key>Modules/ToneListen.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		vMFLu5mWRTMdJTqO/DFlyoFt3+k=
+		cxweRk/VllfbOGbtZLgZv5NADbw=
 		</data>
 		<key>Modules/ToneListen.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		ICvP5LEV4QHJvh4EIquM2tPzmFw=
+		rWRXxKqasj1Qxlbuekg+CoYciTE=
 		</data>
 		<key>Modules/ToneListen.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		TBakHl/eE0vexP+C9125mYxtwIs=
-		</data>
-		<key>Modules/ToneListen.swiftmodule/arm64.swiftdoc</key>
-		<data>
-		vMFLu5mWRTMdJTqO/DFlyoFt3+k=
-		</data>
-		<key>Modules/ToneListen.swiftmodule/arm64.swiftinterface</key>
-		<data>
-		ICvP5LEV4QHJvh4EIquM2tPzmFw=
-		</data>
-		<key>Modules/ToneListen.swiftmodule/arm64.swiftmodule</key>
-		<data>
-		TBakHl/eE0vexP+C9125mYxtwIs=
+		Xm48aiXxDQJ4KYlGLzmcF1mHeVg=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -55,7 +43,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			DpxB7Gwq4CbYUqTeZHhi6WO6/jsG8mJax5TQ9pZ6Apc=
+			80Y+gZgsjfaEY20pqTAZlrAa9ivYXYZ9W0NrgKmSVsg=
 			</data>
 		</dict>
 		<key>Headers/ToneListen.h</key>
@@ -69,42 +57,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			mIaRlHcBHA8KRmyvoGlakgjeRrRVpAgzzOZYDbpwr/c=
+			T5/fxiKQV1eeC1RjBOITt56AdmJt9ZKW5DkCPEn/0GI=
 			</data>
 		</dict>
 		<key>Modules/ToneListen.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			z8p7opRseSINIw3WSvKRaQ7fLQICTabGTJkrhFASAq4=
+			rkVBIYDMpSqxMeem3xc/2Tr4mD7h40iGXiWo62/dYP0=
 			</data>
 		</dict>
 		<key>Modules/ToneListen.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EVUoirPwnse5ryCky1lbyhQE+gkw7m3/XWsnM9y9twQ=
-			</data>
-		</dict>
-		<key>Modules/ToneListen.swiftmodule/arm64.swiftdoc</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			mIaRlHcBHA8KRmyvoGlakgjeRrRVpAgzzOZYDbpwr/c=
-			</data>
-		</dict>
-		<key>Modules/ToneListen.swiftmodule/arm64.swiftinterface</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			z8p7opRseSINIw3WSvKRaQ7fLQICTabGTJkrhFASAq4=
-			</data>
-		</dict>
-		<key>Modules/ToneListen.swiftmodule/arm64.swiftmodule</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			EVUoirPwnse5ryCky1lbyhQE+gkw7m3/XWsnM9y9twQ=
+			ebg4WL45n9U7kPAn/UA3J5M++88o6lkq9V9ot3ST9yg=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
