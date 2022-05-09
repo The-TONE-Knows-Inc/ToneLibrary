@@ -3,7 +3,6 @@
 // swift-module-flags: -target arm64-apple-ios14.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name ToneListen
 import AVFoundation
 import AudioKit
-import CSoundpipeAudioKit
 import Combine
 import CoreAudio
 import CoreLocation
