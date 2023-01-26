@@ -1,7 +1,6 @@
 
 # Tone Framework
 
-
 A Swift package for working with AudioKIK and allows to perceive and filter tones (frequencies) 
 
 ## Requirements
@@ -16,16 +15,19 @@ A Swift package for working with AudioKIK and allows to perceive and filter tone
 ```swift
 import ToneListen
 
-// Instance tone framework by passing client ID
-let toneFramework = ToneFramework(clientID: {{ Your client ID }})
+// Instantiate the ToneFramework by passing mode - `.microphone`, `.stream`, or `.streamAndMicrophone`
+let toneFramework = ToneFramework(mode: .microphone)
 
-//Start listen service:
+// Set Client ID
+toneFramework.setClientId(clientID: "")
+
+// Start listening service:
 toneFramework.start()
 
-//To stop service:
+// Stop listening service:
 toneFramework.stop()
 
-//If you need to be notified when a valid tone was caught, you will need to subscribe to 'notificationName' from NotificationHandler:
+// If you need to be notified when a valid tone was caught, you will need to subscribe to 'notificationName' from NotificationHandler:
 
 // By publishing this property we can ensure that our subscriber (notificationName) will be
 // re-rendered when the property changes (i.e. whenever there's a new notification)
@@ -62,7 +64,7 @@ let package = Package(
   dependencies: [
     .package(
         url: "https://github.com/The-TONE-Knows-Inc/ToneLibrary",
-        from: "TonelibraryV3"
+        from: "TonelibraryV7"
     ),
   ]
 )
