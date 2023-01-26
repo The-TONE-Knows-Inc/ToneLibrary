@@ -15,8 +15,12 @@ A Swift package for working with AudioKIK and allows to perceive and filter tone
 ```swift
 import ToneListen
 
-// Instantiate the ToneFramework by passing mode - `.microphone`, `.stream`, or `.streamAndMicrophone`
+// Instantiate the ToneFramework by passing mode - `.microphone`, `.stream()`, or `.streamAndMicrophone()`
 let toneFramework = ToneFramework(mode: .microphone)
+
+// Start detection of tones in a stream or file
+let url = URL(....))
+let toneFramework = ToneFramework(mode: .steam(url))
 
 // Set Client ID
 toneFramework.setClientId(clientID: "")
