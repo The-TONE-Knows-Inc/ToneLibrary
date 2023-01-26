@@ -1,0 +1,4277 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToneListen",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToneListen",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToneListen",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftLocation",
+        "printedName": "SwiftLocation",
+        "declKind": "Import",
+        "moduleName": "ToneListen",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ToneListen"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "RemoteService",
+        "printedName": "RemoteService",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "handleContentActively",
+            "printedName": "handleContentActively(actionType:actionURL:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ToneListen13RemoteServiceC21handleContentActively10actionType0H3URLySS_SStFZ",
+            "mangledName": "$s10ToneListen13RemoteServiceC21handleContentActively10actionType0H3URLySS_SStFZ",
+            "moduleName": "ToneListen",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "checkTone",
+            "printedName": "checkTone(detectedTone:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ToneListen13RemoteServiceC05checkA008detectedA0ySS_tFZ",
+            "mangledName": "$s10ToneListen13RemoteServiceC05checkA008detectedA0ySS_tFZ",
+            "moduleName": "ToneListen",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10ToneListen13RemoteServiceC",
+        "mangledName": "$s10ToneListen13RemoteServiceC",
+        "moduleName": "ToneListen",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToneListen",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ToneListen"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToneListen"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFAudio",
+        "printedName": "AVFAudio",
+        "declKind": "Import",
+        "moduleName": "ToneListen"
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ToneListen"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftLocation",
+        "printedName": "SwiftLocation",
+        "declKind": "Import",
+        "moduleName": "ToneListen",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToneListen",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ToneListen"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ToneFrameworkData",
+        "printedName": "ToneFrameworkData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "lastDetectedTone",
+            "printedName": "lastDetectedTone",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10ToneListen0A13FrameworkDataV012lastDetectedA0SSvp",
+            "mangledName": "$s10ToneListen0A13FrameworkDataV012lastDetectedA0SSvp",
+            "moduleName": "ToneListen",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ToneListen0A13FrameworkDataV012lastDetectedA0SSvg",
+                "mangledName": "$s10ToneListen0A13FrameworkDataV012lastDetectedA0SSvg",
+                "moduleName": "ToneListen",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ToneListen0A13FrameworkDataV012lastDetectedA0SSvs",
+                "mangledName": "$s10ToneListen0A13FrameworkDataV012lastDetectedA0SSvs",
+                "moduleName": "ToneListen",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ToneListen0A13FrameworkDataV012lastDetectedA0SSvM",
+                "mangledName": "$s10ToneListen0A13FrameworkDataV012lastDetectedA0SSvM",
+                "moduleName": "ToneListen",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:10ToneListen0A13FrameworkDataV",
+        "mangledName": "$s10ToneListen0A13FrameworkDataV",
+        "moduleName": "ToneListen",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ToneAPI",
+        "printedName": "ToneAPI",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ToneFrameworkData",
+                "printedName": "ToneListen.ToneFrameworkData",
+                "usr": "s:10ToneListen0A13FrameworkDataV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10ToneListen0A3APIC4dataAA0A13FrameworkDataVvp",
+            "mangledName": "$s10ToneListen0A3APIC4dataAA0A13FrameworkDataVvp",
+            "moduleName": "ToneListen",
+            "declAttributes": [
+              "ProjectedValueProperty",
+              "AccessControl",
+              "Custom"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ToneFrameworkData",
+                    "printedName": "ToneListen.ToneFrameworkData",
+                    "usr": "s:10ToneListen0A13FrameworkDataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ToneListen0A3APIC4dataAA0A13FrameworkDataVvg",
+                "mangledName": "$s10ToneListen0A3APIC4dataAA0A13FrameworkDataVvg",
+                "moduleName": "ToneListen",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ToneFrameworkData",
+                    "printedName": "ToneListen.ToneFrameworkData",
+                    "usr": "s:10ToneListen0A13FrameworkDataV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ToneListen0A3APIC4dataAA0A13FrameworkDataVvs",
+                "mangledName": "$s10ToneListen0A3APIC4dataAA0A13FrameworkDataVvs",
+                "moduleName": "ToneListen",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ToneListen0A3APIC4dataAA0A13FrameworkDataVvM",
+                "mangledName": "$s10ToneListen0A3APIC4dataAA0A13FrameworkDataVvM",
+                "moduleName": "ToneListen",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "$data",
+            "printedName": "$data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Publisher",
+                "printedName": "Combine.Published<ToneListen.ToneFrameworkData>.Publisher",
+                "usr": "s:7Combine9PublishedV9PublisherV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10ToneListen0A3APIC5$data7Combine9PublishedV9PublisherVyAA0A13FrameworkDataV_Gvp",
+            "mangledName": "$s10ToneListen0A3APIC5$data7Combine9PublishedV9PublisherVyAA0A13FrameworkDataV_Gvp",
+            "moduleName": "ToneListen",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<ToneListen.ToneFrameworkData>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ToneListen0A3APIC5$data7Combine9PublishedV9PublisherVyAA0A13FrameworkDataV_Gvg",
+                "mangledName": "$s10ToneListen0A3APIC5$data7Combine9PublishedV9PublisherVyAA0A13FrameworkDataV_Gvg",
+                "moduleName": "ToneListen",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Publisher",
+                    "printedName": "Combine.Published<ToneListen.ToneFrameworkData>.Publisher",
+                    "usr": "s:7Combine9PublishedV9PublisherV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ToneListen0A3APIC5$data7Combine9PublishedV9PublisherVyAA0A13FrameworkDataV_Gvs",
+                "mangledName": "$s10ToneListen0A3APIC5$data7Combine9PublishedV9PublisherVyAA0A13FrameworkDataV_Gvs",
+                "moduleName": "ToneListen",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ToneListen0A3APIC5$data7Combine9PublishedV9PublisherVyAA0A13FrameworkDataV_GvM",
+                "mangledName": "$s10ToneListen0A3APIC5$data7Combine9PublishedV9PublisherVyAA0A13FrameworkDataV_GvM",
+                "moduleName": "ToneListen",
+                "implicit": true,
+                "intro_Macosx": "11.0",
+                "intro_iOS": "14.0",
+                "intro_tvOS": "14.0",
+                "intro_watchOS": "7.0",
+                "declAttributes": [
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ToneAPI",
+                "printedName": "ToneListen.ToneAPI",
+                "usr": "s:10ToneListen0A3APIC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10ToneListen0A3APICACycfc",
+            "mangledName": "$s10ToneListen0A3APICACycfc",
+            "moduleName": "ToneListen",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "update",
+            "printedName": "update(subject:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Subject",
+                "printedName": "ToneListen.Subject",
+                "usr": "s:10ToneListen7SubjectC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ToneListen0A3APIC6update7subjectyAA7SubjectC_tF",
+            "mangledName": "$s10ToneListen0A3APIC6update7subjectyAA7SubjectC_tF",
+            "moduleName": "ToneListen",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10ToneListen0A3APIC",
+        "mangledName": "$s10ToneListen0A3APIC",
+        "moduleName": "ToneListen",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "ObservableObject",
+            "printedName": "ObservableObject",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "ObjectWillChangePublisher",
+                "printedName": "ObjectWillChangePublisher",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ObservableObjectPublisher",
+                    "printedName": "Combine.ObservableObjectPublisher",
+                    "usr": "s:7Combine25ObservableObjectPublisherC"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:7Combine16ObservableObjectP",
+            "mangledName": "$s7Combine16ObservableObjectP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Observer",
+            "printedName": "Observer",
+            "usr": "s:10ToneListen8ObserverP",
+            "mangledName": "$s10ToneListen8ObserverP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ToneListen"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToneListen"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "ToneListen"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFAudio",
+        "printedName": "AVFAudio",
+        "declKind": "Import",
+        "moduleName": "ToneListen"
+      },
+      {
+        "kind": "Import",
+        "name": "AudioStreaming",
+        "printedName": "AudioStreaming",
+        "declKind": "Import",
+        "moduleName": "ToneListen",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ToneListen"
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "ToneListen"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "BaseTap",
+        "printedName": "BaseTap",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "bufferSize",
+            "printedName": "bufferSize",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10ToneListen7BaseTapC10bufferSizes6UInt32Vvp",
+            "mangledName": "$s10ToneListen7BaseTapC10bufferSizes6UInt32Vvp",
+            "moduleName": "ToneListen",
+            "declAttributes": [
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UInt32",
+                    "printedName": "Swift.UInt32",
+                    "usr": "s:s6UInt32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ToneListen7BaseTapC10bufferSizes6UInt32Vvg",
+                "mangledName": "$s10ToneListen7BaseTapC10bufferSizes6UInt32Vvg",
+                "moduleName": "ToneListen",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isStarted",
+            "printedName": "isStarted",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10ToneListen7BaseTapC9isStartedSbvp",
+            "mangledName": "$s10ToneListen7BaseTapC9isStartedSbvp",
+            "moduleName": "ToneListen",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ToneListen7BaseTapC9isStartedSbvg",
+                "mangledName": "$s10ToneListen7BaseTapC9isStartedSbvg",
+                "moduleName": "ToneListen",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "bus",
+            "printedName": "bus",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10ToneListen7BaseTapC3busSivp",
+            "mangledName": "$s10ToneListen7BaseTapC3busSivp",
+            "moduleName": "ToneListen",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ToneListen7BaseTapC3busSivg",
+                "mangledName": "$s10ToneListen7BaseTapC3busSivg",
+                "moduleName": "ToneListen",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ToneListen7BaseTapC3busSivs",
+                "mangledName": "$s10ToneListen7BaseTapC3busSivs",
+                "moduleName": "ToneListen",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ToneListen7BaseTapC3busSivM",
+                "mangledName": "$s10ToneListen7BaseTapC3busSivM",
+                "moduleName": "ToneListen",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "input",
+            "printedName": "input",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AVAudioNode",
+                "printedName": "AVFAudio.AVAudioNode",
+                "usr": "c:objc(cs)AVAudioNode"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10ToneListen7BaseTapC5inputSo11AVAudioNodeCvp",
+            "mangledName": "$s10ToneListen7BaseTapC5inputSo11AVAudioNodeCvp",
+            "moduleName": "ToneListen",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVAudioNode",
+                    "printedName": "AVFAudio.AVAudioNode",
+                    "usr": "c:objc(cs)AVAudioNode"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ToneListen7BaseTapC5inputSo11AVAudioNodeCvg",
+                "mangledName": "$s10ToneListen7BaseTapC5inputSo11AVAudioNodeCvg",
+                "moduleName": "ToneListen",
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AVAudioNode",
+                    "printedName": "AVFAudio.AVAudioNode",
+                    "usr": "c:objc(cs)AVAudioNode"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ToneListen7BaseTapC5inputSo11AVAudioNodeCvs",
+                "mangledName": "$s10ToneListen7BaseTapC5inputSo11AVAudioNodeCvs",
+                "moduleName": "ToneListen",
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ToneListen7BaseTapC5inputSo11AVAudioNodeCvM",
+                "mangledName": "$s10ToneListen7BaseTapC5inputSo11AVAudioNodeCvM",
+                "moduleName": "ToneListen",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:bufferSize:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BaseTap",
+                "printedName": "ToneListen.BaseTap",
+                "usr": "c:@M@ToneListen@objc(cs)BaseTap"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVAudioNode",
+                "printedName": "AVFAudio.AVAudioNode",
+                "usr": "c:objc(cs)AVAudioNode"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10ToneListen7BaseTapC_10bufferSizeACSo11AVAudioNodeC_s6UInt32Vtcfc",
+            "mangledName": "$s10ToneListen7BaseTapC_10bufferSizeACSo11AVAudioNodeC_s6UInt32Vtcfc",
+            "moduleName": "ToneListen",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ToneListen7BaseTapC5startyyF",
+            "mangledName": "$s10ToneListen7BaseTapC5startyyF",
+            "moduleName": "ToneListen",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "doHandleTapBlock",
+            "printedName": "doHandleTapBlock(buffer:at:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVAudioPCMBuffer",
+                "printedName": "AVFAudio.AVAudioPCMBuffer",
+                "usr": "c:objc(cs)AVAudioPCMBuffer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVAudioTime",
+                "printedName": "AVFAudio.AVAudioTime",
+                "usr": "c:objc(cs)AVAudioTime"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ToneListen7BaseTapC08doHandleD5Block6buffer2atySo16AVAudioPCMBufferC_So0J4TimeCtF",
+            "mangledName": "$s10ToneListen7BaseTapC08doHandleD5Block6buffer2atySo16AVAudioPCMBufferC_So0J4TimeCtF",
+            "moduleName": "ToneListen",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ToneListen7BaseTapC4stopyyF",
+            "mangledName": "$s10ToneListen7BaseTapC4stopyyF",
+            "moduleName": "ToneListen",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "dispose",
+            "printedName": "dispose()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ToneListen7BaseTapC7disposeyyF",
+            "mangledName": "$s10ToneListen7BaseTapC7disposeyyF",
+            "moduleName": "ToneListen",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "BaseTap",
+                "printedName": "ToneListen.BaseTap",
+                "usr": "c:@M@ToneListen@objc(cs)BaseTap"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ToneListen@objc(cs)BaseTap(im)init",
+            "mangledName": "$s10ToneListen7BaseTapCACycfc",
+            "moduleName": "ToneListen",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ToneListen@objc(cs)BaseTap",
+        "mangledName": "$s10ToneListen7BaseTapC",
+        "moduleName": "ToneListen",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToneListen",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Subject",
+        "printedName": "Subject",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "state",
+            "printedName": "state",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10ToneListen7SubjectC5stateSSvp",
+            "mangledName": "$s10ToneListen7SubjectC5stateSSvp",
+            "moduleName": "ToneListen",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ToneListen7SubjectC5stateSSvg",
+                "mangledName": "$s10ToneListen7SubjectC5stateSSvg",
+                "moduleName": "ToneListen",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ToneListen7SubjectC5stateSSvs",
+                "mangledName": "$s10ToneListen7SubjectC5stateSSvs",
+                "moduleName": "ToneListen",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ToneListen7SubjectC5stateSSvM",
+                "mangledName": "$s10ToneListen7SubjectC5stateSSvM",
+                "moduleName": "ToneListen",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10ToneListen7SubjectC",
+        "mangledName": "$s10ToneListen7SubjectC",
+        "moduleName": "ToneListen",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "Observer",
+        "printedName": "Observer",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "update",
+            "printedName": "update(subject:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Subject",
+                "printedName": "ToneListen.Subject",
+                "usr": "s:10ToneListen7SubjectC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ToneListen8ObserverP6update7subjectyAA7SubjectC_tF",
+            "mangledName": "$s10ToneListen8ObserverP6update7subjectyAA7SubjectC_tF",
+            "moduleName": "ToneListen",
+            "genericSig": "<τ_0_0 where τ_0_0 : ToneListen.Observer>",
+            "sugared_genericSig": "<Self where Self : ToneListen.Observer>",
+            "protocolReq": true,
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:10ToneListen8ObserverP",
+        "mangledName": "$s10ToneListen8ObserverP",
+        "moduleName": "ToneListen",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToneListen",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UserNotifications",
+        "printedName": "UserNotifications",
+        "declKind": "Import",
+        "moduleName": "ToneListen"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ToneListen"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "NotificationsHandler",
+        "printedName": "NotificationsHandler",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationsHandler",
+                "printedName": "ToneListen.NotificationsHandler",
+                "usr": "c:@M@ToneListen@objc(cs)NotificationsHandler"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ToneListen@objc(cs)NotificationsHandler(im)init",
+            "mangledName": "$s10ToneListen20NotificationsHandlerCACycfc",
+            "moduleName": "ToneListen",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "NotificationsHandler",
+                "printedName": "ToneListen.NotificationsHandler",
+                "usr": "c:@M@ToneListen@objc(cs)NotificationsHandler"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10ToneListen20NotificationsHandlerC6sharedACvpZ",
+            "mangledName": "$s10ToneListen20NotificationsHandlerC6sharedACvpZ",
+            "moduleName": "ToneListen",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationsHandler",
+                    "printedName": "ToneListen.NotificationsHandler",
+                    "usr": "c:@M@ToneListen@objc(cs)NotificationsHandler"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ToneListen20NotificationsHandlerC6sharedACvgZ",
+                "mangledName": "$s10ToneListen20NotificationsHandlerC6sharedACvgZ",
+                "moduleName": "ToneListen",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "NotificationsHandler",
+                    "printedName": "ToneListen.NotificationsHandler",
+                    "usr": "c:@M@ToneListen@objc(cs)NotificationsHandler"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ToneListen20NotificationsHandlerC6sharedACvsZ",
+                "mangledName": "$s10ToneListen20NotificationsHandlerC6sharedACvsZ",
+                "moduleName": "ToneListen",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ToneListen20NotificationsHandlerC6sharedACvMZ",
+                "mangledName": "$s10ToneListen20NotificationsHandlerC6sharedACvMZ",
+                "moduleName": "ToneListen",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "contentResponse",
+            "printedName": "contentResponse",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10ToneListen20NotificationsHandlerC15contentResponseSDySSypGvp",
+            "mangledName": "$s10ToneListen20NotificationsHandlerC15contentResponseSDySSypGvp",
+            "moduleName": "ToneListen",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ToneListen20NotificationsHandlerC15contentResponseSDySSypGvg",
+                "mangledName": "$s10ToneListen20NotificationsHandlerC15contentResponseSDySSypGvg",
+                "moduleName": "ToneListen",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ToneListen20NotificationsHandlerC15contentResponseSDySSypGvs",
+                "mangledName": "$s10ToneListen20NotificationsHandlerC15contentResponseSDySSypGvs",
+                "moduleName": "ToneListen",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ToneListen20NotificationsHandlerC15contentResponseSDySSypGvM",
+                "mangledName": "$s10ToneListen20NotificationsHandlerC15contentResponseSDySSypGvM",
+                "moduleName": "ToneListen",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "clientNotificationName",
+            "printedName": "clientNotificationName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10ToneListen20NotificationsHandlerC22clientNotificationNameSo014NSNotificationG0avpZ",
+            "mangledName": "$s10ToneListen20NotificationsHandlerC22clientNotificationNameSo014NSNotificationG0avpZ",
+            "moduleName": "ToneListen",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ToneListen20NotificationsHandlerC22clientNotificationNameSo014NSNotificationG0avgZ",
+                "mangledName": "$s10ToneListen20NotificationsHandlerC22clientNotificationNameSo014NSNotificationG0avgZ",
+                "moduleName": "ToneListen",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "notificationName",
+            "printedName": "notificationName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10ToneListen20NotificationsHandlerC16notificationNameSo014NSNotificationF0avpZ",
+            "mangledName": "$s10ToneListen20NotificationsHandlerC16notificationNameSo014NSNotificationF0avpZ",
+            "moduleName": "ToneListen",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ToneListen20NotificationsHandlerC16notificationNameSo014NSNotificationF0avgZ",
+                "mangledName": "$s10ToneListen20NotificationsHandlerC16notificationNameSo014NSNotificationF0avgZ",
+                "moduleName": "ToneListen",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "responseObjectNotificationName",
+            "printedName": "responseObjectNotificationName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10ToneListen20NotificationsHandlerC30responseObjectNotificationNameSo014NSNotificationH0avpZ",
+            "mangledName": "$s10ToneListen20NotificationsHandlerC30responseObjectNotificationNameSo014NSNotificationH0avpZ",
+            "moduleName": "ToneListen",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10ToneListen20NotificationsHandlerC30responseObjectNotificationNameSo014NSNotificationH0avgZ",
+                "mangledName": "$s10ToneListen20NotificationsHandlerC30responseObjectNotificationNameSo014NSNotificationH0avgZ",
+                "moduleName": "ToneListen",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "requestPermission",
+            "printedName": "requestPermission()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ToneListen20NotificationsHandlerC17requestPermissionyyF",
+            "mangledName": "$s10ToneListen20NotificationsHandlerC17requestPermissionyyF",
+            "moduleName": "ToneListen",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userNotificationCenter",
+            "printedName": "userNotificationCenter(_:willPresent:withCompletionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNUserNotificationCenter",
+                "printedName": "UserNotifications.UNUserNotificationCenter",
+                "usr": "c:objc(cs)UNUserNotificationCenter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotification",
+                "printedName": "UserNotifications.UNNotification",
+                "usr": "c:objc(cs)UNNotification"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UserNotifications.UNNotificationPresentationOptions) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UNNotificationPresentationOptions",
+                    "printedName": "UserNotifications.UNNotificationPresentationOptions",
+                    "usr": "c:@E@UNNotificationPresentationOptions"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ToneListen@objc(cs)NotificationsHandler(im)userNotificationCenter:willPresentNotification:withCompletionHandler:",
+            "mangledName": "$s10ToneListen20NotificationsHandlerC22userNotificationCenter_11willPresent014withCompletionD0ySo06UNUserfG0C_So14UNNotificationCySo0M19PresentationOptionsVctF",
+            "moduleName": "ToneListen",
+            "objc_name": "userNotificationCenter:willPresentNotification:withCompletionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "userNotificationCenter",
+            "printedName": "userNotificationCenter(_:didReceive:withCompletionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNUserNotificationCenter",
+                "printedName": "UserNotifications.UNUserNotificationCenter",
+                "usr": "c:objc(cs)UNUserNotificationCenter"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UNNotificationResponse",
+                "printedName": "UserNotifications.UNNotificationResponse",
+                "usr": "c:objc(cs)UNNotificationResponse"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "() -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@ToneListen@objc(cs)NotificationsHandler(im)userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:",
+            "mangledName": "$s10ToneListen20NotificationsHandlerC22userNotificationCenter_10didReceive014withCompletionD0ySo06UNUserfG0C_So22UNNotificationResponseCyyctF",
+            "moduleName": "ToneListen",
+            "objc_name": "userNotificationCenter:didReceiveNotificationResponse:withCompletionHandler:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ToneListen@objc(cs)NotificationsHandler",
+        "mangledName": "$s10ToneListen20NotificationsHandlerC",
+        "moduleName": "ToneListen",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "ToneListen",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreAudio",
+        "printedName": "CoreAudio",
+        "declKind": "Import",
+        "moduleName": "ToneListen"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "GoertzelTap",
+        "printedName": "GoertzelTap",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:sampleRate:maxFrequenciesCount:bufferSize:toneDetectionBlock:handler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GoertzelTap",
+                "printedName": "ToneListen.GoertzelTap",
+                "usr": "c:@M@ToneListen@objc(cs)GoertzelTap"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVAudioNode",
+                "printedName": "AVFAudio.AVAudioNode",
+                "usr": "c:objc(cs)AVAudioNode"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Float",
+                "printedName": "Swift.Float",
+                "usr": "s:Sf"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "hasDefaultArg": true,
+                "usr": "s:s6UInt32V"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Int) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ]
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([Swift.Float], Swift.Int) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "([Swift.Float], Swift.Int)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[Swift.Float]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Float",
+                            "printedName": "Swift.Float",
+                            "usr": "s:Sf"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10ToneListen11GoertzelTapC_10sampleRate19maxFrequenciesCount10bufferSize18toneDetectionBlock7handlerACSo11AVAudioNodeC_SfSis6UInt32VySicySaySfG_Sitctcfc",
+            "mangledName": "$s10ToneListen11GoertzelTapC_10sampleRate19maxFrequenciesCount10bufferSize18toneDetectionBlock7handlerACSo11AVAudioNodeC_SfSis6UInt32VySicySaySfG_Sitctcfc",
+            "moduleName": "ToneListen",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ToneListen11GoertzelTapC4stopyyF",
+            "mangledName": "$s10ToneListen11GoertzelTapC4stopyyF",
+            "moduleName": "ToneListen",
+            "overriding": true,
+            "declAttributes": [
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "doHandleTapBlock",
+            "printedName": "doHandleTapBlock(buffer:at:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVAudioPCMBuffer",
+                "printedName": "AVFAudio.AVAudioPCMBuffer",
+                "usr": "c:objc(cs)AVAudioPCMBuffer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVAudioTime",
+                "printedName": "AVFAudio.AVAudioTime",
+                "usr": "c:objc(cs)AVAudioTime"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ToneListen11GoertzelTapC08doHandleD5Block6buffer2atySo16AVAudioPCMBufferC_So0J4TimeCtF",
+            "mangledName": "$s10ToneListen11GoertzelTapC08doHandleD5Block6buffer2atySo16AVAudioPCMBufferC_So0J4TimeCtF",
+            "moduleName": "ToneListen",
+            "overriding": true,
+            "declAttributes": [
+              "AccessControl",
+              "Override",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(_:bufferSize:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "GoertzelTap",
+                "printedName": "ToneListen.GoertzelTap",
+                "usr": "c:@M@ToneListen@objc(cs)GoertzelTap"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVAudioNode",
+                "printedName": "AVFAudio.AVAudioNode",
+                "usr": "c:objc(cs)AVAudioNode"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UInt32",
+                "printedName": "Swift.UInt32",
+                "usr": "s:s6UInt32V"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10ToneListen11GoertzelTapC_10bufferSizeACSo11AVAudioNodeC_s6UInt32Vtcfc",
+            "mangledName": "$s10ToneListen11GoertzelTapC_10bufferSizeACSo11AVAudioNodeC_s6UInt32Vtcfc",
+            "moduleName": "ToneListen",
+            "overriding": true,
+            "implicit": true,
+            "declAttributes": [
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ToneListen@objc(cs)GoertzelTap",
+        "mangledName": "$s10ToneListen11GoertzelTapC",
+        "moduleName": "ToneListen",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment",
+          "ObjC"
+        ],
+        "superclassUsr": "c:@M@ToneListen@objc(cs)BaseTap",
+        "superclassNames": [
+          "ToneListen.BaseTap",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToneListen",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ToneListen"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ToneFrameworkManagerMode",
+        "printedName": "ToneFrameworkManagerMode",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "stream",
+            "printedName": "stream",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ToneListen.ToneFrameworkManagerMode.Type) -> (Foundation.URL) -> ToneListen.ToneFrameworkManagerMode",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URL) -> ToneListen.ToneFrameworkManagerMode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ToneFrameworkManagerMode",
+                        "printedName": "ToneListen.ToneFrameworkManagerMode",
+                        "usr": "s:10ToneListen0A20FrameworkManagerModeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ToneListen.ToneFrameworkManagerMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ToneFrameworkManagerMode",
+                        "printedName": "ToneListen.ToneFrameworkManagerMode",
+                        "usr": "s:10ToneListen0A20FrameworkManagerModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10ToneListen0A20FrameworkManagerModeO6streamyAC10Foundation3URLVcACmF",
+            "mangledName": "$s10ToneListen0A20FrameworkManagerModeO6streamyAC10Foundation3URLVcACmF",
+            "moduleName": "ToneListen"
+          },
+          {
+            "kind": "Var",
+            "name": "microphone",
+            "printedName": "microphone",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ToneListen.ToneFrameworkManagerMode.Type) -> ToneListen.ToneFrameworkManagerMode",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ToneFrameworkManagerMode",
+                    "printedName": "ToneListen.ToneFrameworkManagerMode",
+                    "usr": "s:10ToneListen0A20FrameworkManagerModeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ToneListen.ToneFrameworkManagerMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ToneFrameworkManagerMode",
+                        "printedName": "ToneListen.ToneFrameworkManagerMode",
+                        "usr": "s:10ToneListen0A20FrameworkManagerModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10ToneListen0A20FrameworkManagerModeO10microphoneyA2CmF",
+            "mangledName": "$s10ToneListen0A20FrameworkManagerModeO10microphoneyA2CmF",
+            "moduleName": "ToneListen"
+          },
+          {
+            "kind": "Var",
+            "name": "streamAndMicrophone",
+            "printedName": "streamAndMicrophone",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ToneListen.ToneFrameworkManagerMode.Type) -> (Foundation.URL) -> ToneListen.ToneFrameworkManagerMode",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Foundation.URL) -> ToneListen.ToneFrameworkManagerMode",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ToneFrameworkManagerMode",
+                        "printedName": "ToneListen.ToneFrameworkManagerMode",
+                        "usr": "s:10ToneListen0A20FrameworkManagerModeO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "URL",
+                        "printedName": "Foundation.URL",
+                        "usr": "s:10Foundation3URLV"
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ToneListen.ToneFrameworkManagerMode.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ToneFrameworkManagerMode",
+                        "printedName": "ToneListen.ToneFrameworkManagerMode",
+                        "usr": "s:10ToneListen0A20FrameworkManagerModeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:10ToneListen0A20FrameworkManagerModeO19streamAndMicrophoneyAC10Foundation3URLVcACmF",
+            "mangledName": "$s10ToneListen0A20FrameworkManagerModeO19streamAndMicrophoneyAC10Foundation3URLVcACmF",
+            "moduleName": "ToneListen"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:10ToneListen0A20FrameworkManagerModeO",
+        "mangledName": "$s10ToneListen0A20FrameworkManagerModeO",
+        "moduleName": "ToneListen",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ToneFrameworkManager",
+        "printedName": "ToneFrameworkManager",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(observer:mode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ToneFrameworkManager",
+                "printedName": "ToneListen.ToneFrameworkManager",
+                "usr": "s:10ToneListen0A16FrameworkManagerC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Observer",
+                "printedName": "ToneListen.Observer",
+                "usr": "s:10ToneListen8ObserverP"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ToneFrameworkManagerMode",
+                "printedName": "ToneListen.ToneFrameworkManagerMode",
+                "usr": "s:10ToneListen0A20FrameworkManagerModeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10ToneListen0A16FrameworkManagerC8observer4modeAcA8Observer_p_AA0acD4ModeOtcfc",
+            "mangledName": "$s10ToneListen0A16FrameworkManagerC8observer4modeAcA8Observer_p_AA0acD4ModeOtcfc",
+            "moduleName": "ToneListen",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "LogTone",
+            "printedName": "LogTone(message:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ToneListen0A16FrameworkManagerC03LogA07messageySS_tF",
+            "mangledName": "$s10ToneListen0A16FrameworkManagerC03LogA07messageySS_tF",
+            "moduleName": "ToneListen",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "startRecognizer",
+            "printedName": "startRecognizer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ToneListen0A16FrameworkManagerC15startRecognizeryyF",
+            "mangledName": "$s10ToneListen0A16FrameworkManagerC15startRecognizeryyF",
+            "moduleName": "ToneListen",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopRecognizer",
+            "printedName": "stopRecognizer()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ToneListen0A16FrameworkManagerC14stopRecognizeryyF",
+            "mangledName": "$s10ToneListen0A16FrameworkManagerC14stopRecognizeryyF",
+            "moduleName": "ToneListen",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isRecognizing",
+            "printedName": "isRecognizing()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<Swift.Bool, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ToneListen0A16FrameworkManagerC13isRecognizing7Combine12AnyPublisherVySbs5NeverOGyF",
+            "mangledName": "$s10ToneListen0A16FrameworkManagerC13isRecognizing7Combine12AnyPublisherVySbs5NeverOGyF",
+            "moduleName": "ToneListen",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10ToneListen0A16FrameworkManagerC",
+        "mangledName": "$s10ToneListen0A16FrameworkManagerC",
+        "moduleName": "ToneListen",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftUI",
+        "printedName": "SwiftUI",
+        "declKind": "Import",
+        "moduleName": "ToneListen"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToneListen"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreLocation",
+        "printedName": "CoreLocation",
+        "declKind": "Import",
+        "moduleName": "ToneListen"
+      },
+      {
+        "kind": "Import",
+        "name": "SwiftLocation",
+        "printedName": "SwiftLocation",
+        "declKind": "Import",
+        "moduleName": "ToneListen",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFAudio",
+        "printedName": "AVFAudio",
+        "declKind": "Import",
+        "moduleName": "ToneListen"
+      },
+      {
+        "kind": "Import",
+        "name": "AudioStreaming",
+        "printedName": "AudioStreaming",
+        "declKind": "Import",
+        "moduleName": "ToneListen",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ToneListen"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ToneListen",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ToneListen"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ToneFramework",
+        "printedName": "ToneFramework",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(mode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ToneFramework",
+                "printedName": "ToneListen.ToneFramework",
+                "usr": "s:10ToneListen0A9FrameworkC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ToneFrameworkManagerMode",
+                "printedName": "ToneListen.ToneFrameworkManagerMode",
+                "usr": "s:10ToneListen0A20FrameworkManagerModeO"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:10ToneListen0A9FrameworkC4modeAcA0aC11ManagerModeO_tcfc",
+            "mangledName": "$s10ToneListen0A9FrameworkC4modeAcA0aC11ManagerModeO_tcfc",
+            "moduleName": "ToneListen",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "isRunning",
+            "printedName": "isRunning()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AnyPublisher",
+                "printedName": "Combine.AnyPublisher<Swift.Bool, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine12AnyPublisherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ToneListen0A9FrameworkC9isRunning7Combine12AnyPublisherVySbs5NeverOGyF",
+            "mangledName": "$s10ToneListen0A9FrameworkC9isRunning7Combine12AnyPublisherVySbs5NeverOGyF",
+            "moduleName": "ToneListen",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ToneListen0A9FrameworkC5startyyF",
+            "mangledName": "$s10ToneListen0A9FrameworkC5startyyF",
+            "moduleName": "ToneListen",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ToneListen0A9FrameworkC4stopyyF",
+            "mangledName": "$s10ToneListen0A9FrameworkC4stopyyF",
+            "moduleName": "ToneListen",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setClientId",
+            "printedName": "setClientId(clientID:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:10ToneListen0A9FrameworkC11setClientId8clientIDySS_tF",
+            "mangledName": "$s10ToneListen0A9FrameworkC11setClientId8clientIDySS_tF",
+            "moduleName": "ToneListen",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:10ToneListen0A9FrameworkC",
+        "mangledName": "$s10ToneListen0A9FrameworkC",
+        "moduleName": "ToneListen",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/Helpers\/Queue.swift",
+      "kind": "Array",
+      "offset": 160,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/Helpers\/ToneTable.swift",
+      "kind": "FloatLiteral",
+      "offset": 156,
+      "length": 4,
+      "value": "25.0"
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/Helpers\/ToneTable.swift",
+      "kind": "IntegerLiteral",
+      "offset": 454,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 372,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "IntegerLiteral",
+      "offset": 464,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 750,
+      "length": 9,
+      "value": "\"iPod5,1\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 806,
+      "length": 29,
+      "value": "\"iPod touch (5th generation)\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 853,
+      "length": 9,
+      "value": "\"iPod7,1\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 909,
+      "length": 29,
+      "value": "\"iPod touch (6th generation)\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 956,
+      "length": 9,
+      "value": "\"iPod9,1\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1012,
+      "length": 29,
+      "value": "\"iPod touch (7th generation)\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1059,
+      "length": 11,
+      "value": "\"iPhone3,1\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1072,
+      "length": 11,
+      "value": "\"iPhone3,2\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1085,
+      "length": 11,
+      "value": "\"iPhone3,3\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1115,
+      "length": 10,
+      "value": "\"iPhone 4\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1143,
+      "length": 11,
+      "value": "\"iPhone4,1\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1199,
+      "length": 11,
+      "value": "\"iPhone 4s\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1228,
+      "length": 11,
+      "value": "\"iPhone5,1\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1241,
+      "length": 11,
+      "value": "\"iPhone5,2\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1284,
+      "length": 10,
+      "value": "\"iPhone 5\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1312,
+      "length": 11,
+      "value": "\"iPhone5,3\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1325,
+      "length": 11,
+      "value": "\"iPhone5,4\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1368,
+      "length": 11,
+      "value": "\"iPhone 5c\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1397,
+      "length": 11,
+      "value": "\"iPhone6,1\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1410,
+      "length": 11,
+      "value": "\"iPhone6,2\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1453,
+      "length": 11,
+      "value": "\"iPhone 5s\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1482,
+      "length": 11,
+      "value": "\"iPhone7,2\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1538,
+      "length": 10,
+      "value": "\"iPhone 6\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1566,
+      "length": 11,
+      "value": "\"iPhone7,1\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1622,
+      "length": 15,
+      "value": "\"iPhone 6 Plus\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1655,
+      "length": 11,
+      "value": "\"iPhone8,1\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1711,
+      "length": 11,
+      "value": "\"iPhone 6s\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1740,
+      "length": 11,
+      "value": "\"iPhone8,2\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1796,
+      "length": 16,
+      "value": "\"iPhone 6s Plus\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1830,
+      "length": 11,
+      "value": "\"iPhone8,4\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1886,
+      "length": 11,
+      "value": "\"iPhone SE\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1915,
+      "length": 11,
+      "value": "\"iPhone9,1\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1928,
+      "length": 11,
+      "value": "\"iPhone9,3\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1971,
+      "length": 10,
+      "value": "\"iPhone 7\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 1999,
+      "length": 11,
+      "value": "\"iPhone9,2\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2012,
+      "length": 11,
+      "value": "\"iPhone9,4\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2055,
+      "length": 15,
+      "value": "\"iPhone 7 Plus\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2088,
+      "length": 12,
+      "value": "\"iPhone10,1\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2102,
+      "length": 12,
+      "value": "\"iPhone10,4\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2144,
+      "length": 10,
+      "value": "\"iPhone 8\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2172,
+      "length": 12,
+      "value": "\"iPhone10,2\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2186,
+      "length": 12,
+      "value": "\"iPhone10,5\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2228,
+      "length": 15,
+      "value": "\"iPhone 8 Plus\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2261,
+      "length": 12,
+      "value": "\"iPhone10,3\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2275,
+      "length": 12,
+      "value": "\"iPhone10,6\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2317,
+      "length": 10,
+      "value": "\"iPhone X\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2345,
+      "length": 12,
+      "value": "\"iPhone11,2\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2401,
+      "length": 11,
+      "value": "\"iPhone XS\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2430,
+      "length": 12,
+      "value": "\"iPhone11,4\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2444,
+      "length": 12,
+      "value": "\"iPhone11,6\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2486,
+      "length": 15,
+      "value": "\"iPhone XS Max\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2519,
+      "length": 12,
+      "value": "\"iPhone11,8\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2575,
+      "length": 11,
+      "value": "\"iPhone XR\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2604,
+      "length": 12,
+      "value": "\"iPhone12,1\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2660,
+      "length": 11,
+      "value": "\"iPhone 11\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2689,
+      "length": 12,
+      "value": "\"iPhone12,3\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2745,
+      "length": 15,
+      "value": "\"iPhone 11 Pro\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2778,
+      "length": 12,
+      "value": "\"iPhone12,5\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2834,
+      "length": 19,
+      "value": "\"iPhone 11 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2871,
+      "length": 12,
+      "value": "\"iPhone12,8\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2927,
+      "length": 28,
+      "value": "\"iPhone SE (2nd generation)\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 2973,
+      "length": 12,
+      "value": "\"iPhone13,1\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3029,
+      "length": 16,
+      "value": "\"iPhone 12 mini\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3063,
+      "length": 12,
+      "value": "\"iPhone13,2\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3119,
+      "length": 11,
+      "value": "\"iPhone 12\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3148,
+      "length": 12,
+      "value": "\"iPhone13,3\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3204,
+      "length": 15,
+      "value": "\"iPhone 12 Pro\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3237,
+      "length": 12,
+      "value": "\"iPhone13,4\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3293,
+      "length": 19,
+      "value": "\"iPhone 12 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3330,
+      "length": 12,
+      "value": "\"iPhone14,4\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3386,
+      "length": 16,
+      "value": "\"iPhone 13 mini\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3420,
+      "length": 12,
+      "value": "\"iPhone14,5\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3476,
+      "length": 11,
+      "value": "\"iPhone 13\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3505,
+      "length": 12,
+      "value": "\"iPhone14,2\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3561,
+      "length": 15,
+      "value": "\"iPhone 13 Pro\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3594,
+      "length": 12,
+      "value": "\"iPhone14,3\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3650,
+      "length": 19,
+      "value": "\"iPhone 13 Pro Max\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3687,
+      "length": 12,
+      "value": "\"iPhone14,7\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3743,
+      "length": 11,
+      "value": "\"iPhone 14\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3772,
+      "length": 9,
+      "value": "\"iPad2,1\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3783,
+      "length": 9,
+      "value": "\"iPad2,2\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3794,
+      "length": 9,
+      "value": "\"iPad2,3\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3805,
+      "length": 9,
+      "value": "\"iPad2,4\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3828,
+      "length": 8,
+      "value": "\"iPad 2\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3854,
+      "length": 9,
+      "value": "\"iPad3,1\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3865,
+      "length": 9,
+      "value": "\"iPad3,2\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3876,
+      "length": 9,
+      "value": "\"iPad3,3\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3910,
+      "length": 23,
+      "value": "\"iPad (3rd generation)\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3951,
+      "length": 9,
+      "value": "\"iPad3,4\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3962,
+      "length": 9,
+      "value": "\"iPad3,5\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 3973,
+      "length": 9,
+      "value": "\"iPad3,6\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4007,
+      "length": 23,
+      "value": "\"iPad (4th generation)\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4048,
+      "length": 10,
+      "value": "\"iPad6,11\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4060,
+      "length": 10,
+      "value": "\"iPad6,12\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4104,
+      "length": 23,
+      "value": "\"iPad (5th generation)\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4145,
+      "length": 9,
+      "value": "\"iPad7,5\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4156,
+      "length": 9,
+      "value": "\"iPad7,6\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4201,
+      "length": 23,
+      "value": "\"iPad (6th generation)\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4242,
+      "length": 10,
+      "value": "\"iPad7,11\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4254,
+      "length": 10,
+      "value": "\"iPad7,12\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4298,
+      "length": 23,
+      "value": "\"iPad (7th generation)\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4339,
+      "length": 10,
+      "value": "\"iPad11,6\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4351,
+      "length": 10,
+      "value": "\"iPad11,7\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4395,
+      "length": 23,
+      "value": "\"iPad (8th generation)\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4436,
+      "length": 10,
+      "value": "\"iPad12,1\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4448,
+      "length": 10,
+      "value": "\"iPad12,2\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4492,
+      "length": 23,
+      "value": "\"iPad (9th generation)\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4533,
+      "length": 9,
+      "value": "\"iPad4,1\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4544,
+      "length": 9,
+      "value": "\"iPad4,2\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4555,
+      "length": 9,
+      "value": "\"iPad4,3\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4589,
+      "length": 10,
+      "value": "\"iPad Air\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4617,
+      "length": 9,
+      "value": "\"iPad5,3\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4628,
+      "length": 9,
+      "value": "\"iPad5,4\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4673,
+      "length": 12,
+      "value": "\"iPad Air 2\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4703,
+      "length": 10,
+      "value": "\"iPad11,3\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4715,
+      "length": 10,
+      "value": "\"iPad11,4\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4759,
+      "length": 27,
+      "value": "\"iPad Air (3rd generation)\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4804,
+      "length": 10,
+      "value": "\"iPad13,1\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4816,
+      "length": 10,
+      "value": "\"iPad13,2\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4860,
+      "length": 27,
+      "value": "\"iPad Air (4th generation)\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4905,
+      "length": 9,
+      "value": "\"iPad2,5\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4916,
+      "length": 9,
+      "value": "\"iPad2,6\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4927,
+      "length": 9,
+      "value": "\"iPad2,7\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4961,
+      "length": 11,
+      "value": "\"iPad mini\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 4990,
+      "length": 9,
+      "value": "\"iPad4,4\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5001,
+      "length": 9,
+      "value": "\"iPad4,5\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5012,
+      "length": 9,
+      "value": "\"iPad4,6\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5046,
+      "length": 13,
+      "value": "\"iPad mini 2\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5077,
+      "length": 9,
+      "value": "\"iPad4,7\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5088,
+      "length": 9,
+      "value": "\"iPad4,8\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5099,
+      "length": 9,
+      "value": "\"iPad4,9\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5133,
+      "length": 13,
+      "value": "\"iPad mini 3\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5164,
+      "length": 9,
+      "value": "\"iPad5,1\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5175,
+      "length": 9,
+      "value": "\"iPad5,2\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5220,
+      "length": 13,
+      "value": "\"iPad mini 4\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5251,
+      "length": 10,
+      "value": "\"iPad11,1\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5263,
+      "length": 10,
+      "value": "\"iPad11,2\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5307,
+      "length": 28,
+      "value": "\"iPad mini (5th generation)\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5353,
+      "length": 10,
+      "value": "\"iPad14,1\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5365,
+      "length": 10,
+      "value": "\"iPad14,2\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5409,
+      "length": 28,
+      "value": "\"iPad mini (6th generation)\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5455,
+      "length": 9,
+      "value": "\"iPad6,3\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5466,
+      "length": 9,
+      "value": "\"iPad6,4\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5511,
+      "length": 21,
+      "value": "\"iPad Pro (9.7-inch)\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5550,
+      "length": 9,
+      "value": "\"iPad7,3\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5561,
+      "length": 9,
+      "value": "\"iPad7,4\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5606,
+      "length": 22,
+      "value": "\"iPad Pro (10.5-inch)\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5646,
+      "length": 9,
+      "value": "\"iPad8,1\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5657,
+      "length": 9,
+      "value": "\"iPad8,2\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5668,
+      "length": 9,
+      "value": "\"iPad8,3\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5679,
+      "length": 9,
+      "value": "\"iPad8,4\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5702,
+      "length": 37,
+      "value": "\"iPad Pro (11-inch) (1st generation)\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5757,
+      "length": 9,
+      "value": "\"iPad8,9\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5768,
+      "length": 10,
+      "value": "\"iPad8,10\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5813,
+      "length": 37,
+      "value": "\"iPad Pro (11-inch) (2nd generation)\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5868,
+      "length": 10,
+      "value": "\"iPad13,4\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5880,
+      "length": 10,
+      "value": "\"iPad13,5\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5892,
+      "length": 10,
+      "value": "\"iPad13,6\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5904,
+      "length": 10,
+      "value": "\"iPad13,7\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5924,
+      "length": 37,
+      "value": "\"iPad Pro (11-inch) (3rd generation)\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5979,
+      "length": 9,
+      "value": "\"iPad6,7\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 5990,
+      "length": 9,
+      "value": "\"iPad6,8\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 6035,
+      "length": 39,
+      "value": "\"iPad Pro (12.9-inch) (1st generation)\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 6092,
+      "length": 9,
+      "value": "\"iPad7,1\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 6103,
+      "length": 9,
+      "value": "\"iPad7,2\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 6148,
+      "length": 39,
+      "value": "\"iPad Pro (12.9-inch) (2nd generation)\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 6205,
+      "length": 9,
+      "value": "\"iPad8,5\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 6216,
+      "length": 9,
+      "value": "\"iPad8,6\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 6227,
+      "length": 9,
+      "value": "\"iPad8,7\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 6238,
+      "length": 9,
+      "value": "\"iPad8,8\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 6261,
+      "length": 39,
+      "value": "\"iPad Pro (12.9-inch) (3rd generation)\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 6318,
+      "length": 10,
+      "value": "\"iPad8,11\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 6330,
+      "length": 10,
+      "value": "\"iPad8,12\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 6374,
+      "length": 39,
+      "value": "\"iPad Pro (12.9-inch) (4th generation)\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 6431,
+      "length": 10,
+      "value": "\"iPad13,8\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 6443,
+      "length": 10,
+      "value": "\"iPad13,9\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 6455,
+      "length": 11,
+      "value": "\"iPad13,10\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 6468,
+      "length": 11,
+      "value": "\"iPad13,11\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 6487,
+      "length": 39,
+      "value": "\"iPad Pro (12.9-inch) (5th generation)\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 6544,
+      "length": 12,
+      "value": "\"AppleTV5,3\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 6600,
+      "length": 10,
+      "value": "\"Apple TV\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 6628,
+      "length": 12,
+      "value": "\"AppleTV6,2\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 6684,
+      "length": 13,
+      "value": "\"Apple TV 4K\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 6715,
+      "length": 19,
+      "value": "\"AudioAccessory1,1\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 6771,
+      "length": 9,
+      "value": "\"HomePod\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 6798,
+      "length": 19,
+      "value": "\"AudioAccessory5,1\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 6854,
+      "length": 14,
+      "value": "\"HomePod mini\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 6886,
+      "length": 6,
+      "value": "\"i386\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 6894,
+      "length": 8,
+      "value": "\"x86_64\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 6904,
+      "length": 7,
+      "value": "\"arm64\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 6951,
+      "length": 104,
+      "value": "\"Simulator \""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 7014,
+      "length": 28,
+      "value": "\"SIMULATOR_MODEL_IDENTIFIER\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 7047,
+      "length": 5,
+      "value": "\"iOS\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/UIDevice.swift",
+      "kind": "StringLiteral",
+      "offset": 7054,
+      "length": 1,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/Recognizer\/BaseRecognizer.swift",
+      "kind": "BooleanLiteral",
+      "offset": 288,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/Recognizer\/BaseRecognizer.swift",
+      "kind": "Array",
+      "offset": 356,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/Recognizer\/BaseRecognizer.swift",
+      "kind": "IntegerLiteral",
+      "offset": 514,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/ToneAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 187,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/Recognizer\/StreamRecognizer.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 16,
+      "value": "\"ToneListen.StreamRecognizer\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/Taps\/BaseTap.swift",
+      "kind": "BooleanLiteral",
+      "offset": 323,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/Taps\/BaseTap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 396,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/Taps\/BaseTap.swift",
+      "kind": "StringLiteral",
+      "offset": 96,
+      "length": 7,
+      "value": "\"ToneListen.BaseTap\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/observer\/Obvserver.swift",
+      "kind": "StringLiteral",
+      "offset": 283,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/NotificationsHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 337,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/NotificationsHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 455,
+      "length": 24,
+      "value": "\"clientNotificationName\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/NotificationsHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 540,
+      "length": 10,
+      "value": "\"View2Msg\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/NotificationsHandler.swift",
+      "kind": "StringLiteral",
+      "offset": 625,
+      "length": 32,
+      "value": "\"responseObjectNotificationName\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/Taps\/GoertzelTap.swift",
+      "kind": "Array",
+      "offset": 422,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/Taps\/GoertzelTap.swift",
+      "kind": "Array",
+      "offset": 472,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/Taps\/GoertzelTap.swift",
+      "kind": "Array",
+      "offset": 523,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/Taps\/GoertzelTap.swift",
+      "kind": "Array",
+      "offset": 572,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/Taps\/GoertzelTap.swift",
+      "kind": "Array",
+      "offset": 621,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/Taps\/GoertzelTap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 783,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/Taps\/GoertzelTap.swift",
+      "kind": "Array",
+      "offset": 864,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/Taps\/GoertzelTap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 905,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/Taps\/GoertzelTap.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1974,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/Taps\/GoertzelTap.swift",
+      "kind": "StringLiteral",
+      "offset": 351,
+      "length": 11,
+      "value": "\"ToneListen.GoertzelTap\""
+    },
+    {
+      "filePath": "\/Users\/art-divin\/Documents\/ToneListen-Framework-Swift 2\/ToneListen\/Recognizer\/MicrophoneRecognizer.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 20,
+      "value": "\"ToneListen.MicrophoneRecognizer\""
+    }
+  ]
+}
