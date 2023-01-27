@@ -67,3 +67,9 @@ let package = Package(
   ]
 )
 ```
+
+### XCFramework
+
+In order to make XCFramework usable without SPM, the parent project must inlude the following SPM packages:
+1. https://github.com/malcommac/SwiftLocation ("Up to next major version" -> version 5.0.0)
+2. https://github.com/art-divin/AudioStreaming (branch "main")
