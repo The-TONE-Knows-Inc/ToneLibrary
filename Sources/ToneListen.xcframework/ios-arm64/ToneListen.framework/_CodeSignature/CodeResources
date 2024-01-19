@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/ToneListen-Swift.h</key>
 		<data>
-		7M+zqRp2KMjRynSVij5EuHGkb9M=
+		7bZlaGI3s+fpcJBFxnxmm38ESIU=
 		</data>
 		<key>Headers/ToneListen.h</key>
 		<data>
@@ -14,23 +14,31 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		i/n/n7gDEnGrpBV5Zb3VXNWHqrA=
+		3KFIT2ixXv6oFgvdW+mLQVIVnD4=
+		</data>
+		<key>Modules/ToneListen.swiftmodule/arm64-apple-ios.abi.json</key>
+		<data>
+		HqMwH4dpWf+BzkuU0HL2UYEjD5g=
+		</data>
+		<key>Modules/ToneListen.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<data>
+		dhD/RRjFnHMjcYXs/QjMJRnpY0Y=
 		</data>
 		<key>Modules/ToneListen.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		cxweRk/VllfbOGbtZLgZv5NADbw=
+		85ZvVd1ZjjBw+lkneO0hrUEZm+Y=
 		</data>
 		<key>Modules/ToneListen.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		rWRXxKqasj1Qxlbuekg+CoYciTE=
+		dhD/RRjFnHMjcYXs/QjMJRnpY0Y=
 		</data>
 		<key>Modules/ToneListen.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		Xm48aiXxDQJ4KYlGLzmcF1mHeVg=
+		USZbjlxXVQkj3uBtHG/kaHw3l2A=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		7KoO0YbVjYYNGBEjsch7t8nZBSg=
+		kEsYRJWakFtQrDRN1NxuZ1hG8gQ=
 		</data>
 		<key>frequency_tables.json</key>
 		<data>
@@ -43,7 +51,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			80Y+gZgsjfaEY20pqTAZlrAa9ivYXYZ9W0NrgKmSVsg=
+			lFFXwrKlGpIDU5oQvvuJqN5jSmXLKSdCVFL0oMxkSpI=
 			</data>
 		</dict>
 		<key>Headers/ToneListen.h</key>
@@ -53,32 +61,46 @@
 			SwALGmB9GXHXPqXs4UkKAEDtrxjXeENXaN2/3K/ErkA=
 			</data>
 		</dict>
+		<key>Modules/ToneListen.swiftmodule/arm64-apple-ios.abi.json</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			k2FVsKn0ki+xldU4uPUVgYusvNURF+wGVx/96gW80no=
+			</data>
+		</dict>
+		<key>Modules/ToneListen.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			tc6DXvIdGTRqFvNydia+/49Vc3DPrh/VOhz83YJ6Gyc=
+			</data>
+		</dict>
 		<key>Modules/ToneListen.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T5/fxiKQV1eeC1RjBOITt56AdmJt9ZKW5DkCPEn/0GI=
+			1RpWTdB5TUr86LKPXC1Ocs/GTR+B+EAxSEI90ZbTRMw=
 			</data>
 		</dict>
 		<key>Modules/ToneListen.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			rkVBIYDMpSqxMeem3xc/2Tr4mD7h40iGXiWo62/dYP0=
+			tc6DXvIdGTRqFvNydia+/49Vc3DPrh/VOhz83YJ6Gyc=
 			</data>
 		</dict>
 		<key>Modules/ToneListen.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ebg4WL45n9U7kPAn/UA3J5M++88o6lkq9V9ot3ST9yg=
+			VcaHmSaEQe+dQ1uvuY+iOBqHQ2PRap+1/2zyUlcx4XE=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			M/ALjCKIY+uyUqHQjbhIo2bti8NzvjcpbPHPaZ/CfPg=
+			jJKXgAVTo06pIIYXEauyuvLYEFyZHJbm+nyW1YexFGw=
 			</data>
 		</dict>
 		<key>frequency_tables.json</key>
