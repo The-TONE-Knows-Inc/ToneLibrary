@@ -73,7 +73,7 @@ public class GoertzelTap : AudioKit.BaseTap {
     get
   }
   public typealias Handler = ([Swift.Int], [Swift.Double]) -> Swift.Void
-  public init(_ input: any AudioKit.Node, bufferSize: Swift.UInt32 = 2048, handler: @escaping ToneListen.GoertzelTap.Handler)
+  public init(_ input: any AudioKit.Node, bufferSize: Swift.UInt32 = 500, handler: @escaping ToneListen.GoertzelTap.Handler)
   @objc deinit
   override open func stop()
   override public func doHandleTapBlock(buffer: AVFAudio.AVAudioPCMBuffer, at time: AVFAudio.AVAudioTime)
