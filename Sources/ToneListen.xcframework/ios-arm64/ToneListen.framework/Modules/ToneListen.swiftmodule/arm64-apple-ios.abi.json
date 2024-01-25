@@ -6783,160 +6783,160 @@
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/GoertzelTap.swift",
       "kind": "StringLiteral",
       "offset": 3541,
-      "length": 7,
-      "value": "\"FRAME\""
+      "length": 8,
+      "value": "\"FRAMES\""
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/GoertzelTap.swift",
       "kind": "FloatLiteral",
-      "offset": 3573,
+      "offset": 3574,
       "length": 7,
       "value": "4100.00"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/GoertzelTap.swift",
       "kind": "FloatLiteral",
-      "offset": 3583,
+      "offset": 3584,
       "length": 7,
       "value": "1024.00"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/GoertzelTap.swift",
       "kind": "FloatLiteral",
-      "offset": 3627,
+      "offset": 3628,
       "length": 7,
       "value": "8000.00"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/GoertzelTap.swift",
       "kind": "FloatLiteral",
-      "offset": 3637,
+      "offset": 3638,
       "length": 7,
       "value": "1024.00"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/GoertzelTap.swift",
       "kind": "StringLiteral",
-      "offset": 3776,
+      "offset": 3777,
       "length": 18,
       "value": "\"frequency_tables\""
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/GoertzelTap.swift",
       "kind": "Array",
-      "offset": 3841,
+      "offset": 3842,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/GoertzelTap.swift",
       "kind": "IntegerLiteral",
-      "offset": 4036,
+      "offset": 4037,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/GoertzelTap.swift",
       "kind": "FloatLiteral",
-      "offset": 4121,
+      "offset": 4122,
       "length": 7,
       "value": "1024.00"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/GoertzelTap.swift",
       "kind": "Array",
-      "offset": 4199,
+      "offset": 4200,
       "length": 49,
       "value": "[14987, 15978, 16968, 17959, 18992, 19983, 20973]"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/GoertzelTap.swift",
       "kind": "FloatLiteral",
-      "offset": 4674,
+      "offset": 4675,
       "length": 3,
       "value": "0.5"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/GoertzelTap.swift",
       "kind": "FloatLiteral",
-      "offset": 4755,
+      "offset": 4756,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/GoertzelTap.swift",
       "kind": "IntegerLiteral",
-      "offset": 4894,
+      "offset": 4895,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/GoertzelTap.swift",
       "kind": "IntegerLiteral",
-      "offset": 5632,
+      "offset": 5633,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/GoertzelTap.swift",
       "kind": "FloatLiteral",
-      "offset": 6306,
+      "offset": 6307,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/GoertzelTap.swift",
       "kind": "FloatLiteral",
-      "offset": 6338,
+      "offset": 6339,
       "length": 3,
       "value": "0.0"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/GoertzelTap.swift",
       "kind": "IntegerLiteral",
-      "offset": 6389,
+      "offset": 6390,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/GoertzelTap.swift",
       "kind": "IntegerLiteral",
-      "offset": 6418,
+      "offset": 6419,
       "length": 5,
       "value": "16000"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/GoertzelTap.swift",
       "kind": "IntegerLiteral",
-      "offset": 6439,
+      "offset": 6440,
       "length": 5,
       "value": "18000"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/GoertzelTap.swift",
       "kind": "IntegerLiteral",
-      "offset": 6473,
+      "offset": 6474,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/GoertzelTap.swift",
       "kind": "IntegerLiteral",
-      "offset": 6591,
+      "offset": 6592,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/GoertzelTap.swift",
       "kind": "IntegerLiteral",
-      "offset": 6885,
+      "offset": 6886,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/GoertzelTap.swift",
       "kind": "IntegerLiteral",
-      "offset": 6900,
+      "offset": 6901,
       "length": 1,
       "value": "2"
     },
