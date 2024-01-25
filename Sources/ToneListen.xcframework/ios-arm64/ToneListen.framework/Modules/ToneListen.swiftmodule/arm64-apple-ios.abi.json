@@ -2862,329 +2862,315 @@
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "StringLiteral",
-      "offset": 9295,
+      "offset": 9189,
       "length": 16,
       "value": "\"::::lowKey::::\""
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
-      "kind": "StringLiteral",
-      "offset": 9723,
-      "length": 17,
-      "value": "\"::::highKey::::\""
-    },
-    {
-      "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
-      "kind": "StringLiteral",
-      "offset": 9811,
-      "length": 17,
-      "value": "\"::::tonetag::::\""
-    },
-    {
-      "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "BooleanLiteral",
-      "offset": 9884,
+      "offset": 9704,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "IntegerLiteral",
-      "offset": 10062,
+      "offset": 9882,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "IntegerLiteral",
-      "offset": 10187,
+      "offset": 10007,
       "length": 2,
       "value": "12"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "StringLiteral",
-      "offset": 10242,
+      "offset": 10062,
       "length": 140,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "StringLiteral",
-      "offset": 10267,
+      "offset": 10087,
       "length": 1,
       "value": "\": \""
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "StringLiteral",
-      "offset": 10293,
+      "offset": 10113,
       "length": 1,
       "value": "\" - \""
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "StringLiteral",
-      "offset": 10320,
+      "offset": 10140,
       "length": 1,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "StringLiteral",
-      "offset": 10336,
+      "offset": 10156,
       "length": 1,
       "value": "\" - \""
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "StringLiteral",
-      "offset": 10355,
+      "offset": 10175,
       "length": 1,
       "value": "\" - \""
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "StringLiteral",
-      "offset": 10380,
+      "offset": 10200,
       "length": 1,
       "value": "\"%\""
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "BooleanLiteral",
-      "offset": 10441,
+      "offset": 10261,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "BooleanLiteral",
-      "offset": 10504,
+      "offset": 10324,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "BooleanLiteral",
-      "offset": 10662,
+      "offset": 10482,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "StringLiteral",
-      "offset": 10921,
+      "offset": 10741,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "IntegerLiteral",
-      "offset": 10956,
+      "offset": 10776,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "IntegerLiteral",
-      "offset": 10982,
+      "offset": 10802,
       "length": 4,
       "value": "-100"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "BooleanLiteral",
-      "offset": 11135,
+      "offset": 10955,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "IntegerLiteral",
-      "offset": 11250,
+      "offset": 11070,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "BooleanLiteral",
-      "offset": 11346,
+      "offset": 11166,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "IntegerLiteral",
-      "offset": 11383,
+      "offset": 11203,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "IntegerLiteral",
-      "offset": 11501,
+      "offset": 11321,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "BooleanLiteral",
-      "offset": 11536,
+      "offset": 11356,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "BooleanLiteral",
-      "offset": 11574,
+      "offset": 11394,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "BooleanLiteral",
-      "offset": 11610,
+      "offset": 11430,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "BooleanLiteral",
-      "offset": 11975,
+      "offset": 11795,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12012,
+      "offset": 11832,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12108,
+      "offset": 11928,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "BooleanLiteral",
-      "offset": 12144,
+      "offset": 11964,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "BooleanLiteral",
-      "offset": 12181,
+      "offset": 12001,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "BooleanLiteral",
-      "offset": 12217,
+      "offset": 12037,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "BooleanLiteral",
-      "offset": 12579,
+      "offset": 12399,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12616,
+      "offset": 12436,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "IntegerLiteral",
-      "offset": 12691,
+      "offset": 12511,
       "length": 1,
       "value": "3"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "BooleanLiteral",
-      "offset": 12726,
+      "offset": 12546,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "BooleanLiteral",
-      "offset": 12764,
+      "offset": 12584,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "BooleanLiteral",
-      "offset": 12800,
+      "offset": 12620,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "IntegerLiteral",
-      "offset": 13083,
+      "offset": 12903,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "IntegerLiteral",
-      "offset": 13217,
+      "offset": 13037,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "BooleanLiteral",
-      "offset": 13252,
+      "offset": 13072,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "IntegerLiteral",
-      "offset": 13348,
+      "offset": 13168,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "BooleanLiteral",
-      "offset": 13747,
+      "offset": 13567,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "StringLiteral",
-      "offset": 14804,
+      "offset": 14624,
       "length": 4,
       "value": "\"\n\""
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "StringLiteral",
-      "offset": 14877,
+      "offset": 14697,
       "length": 3,
       "value": "\" \""
     },
     {
       "filePath": "\/Users\/anilkumar\/Documents\/GitHub\/ToneListen-Framework-Swift\/ToneListen\/SwiftRecognizer.swift",
       "kind": "BooleanLiteral",
-      "offset": 15021,
+      "offset": 14841,
       "length": 4,
       "value": "true"
     },
